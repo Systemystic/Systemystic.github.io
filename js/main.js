@@ -105,4 +105,12 @@ jQuery(document).ready(function($){
 		return window.getComputedStyle(imageWrapper.get(0), '::before').getPropertyValue('content').replace(/'/g, "").replace(/"/g, "").split(', ');
 	}
 
+	
+	$('.gamelogo').mouseover(function() {
+			$(this).stop().animate({height: '+=20px'}, 500);
+		});
+	
+	$('.gamelogo').mouseout(function() {
+			$(this).stop().animate({height: '-=20px'}, 500);
+		});
 });
