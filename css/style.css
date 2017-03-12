@@ -31,6 +31,16 @@ button {
   font-size: 1.6rem;
 }
 
+li .styled {
+  list-style-type: circle;
+  margin-left: 50px;
+}
+
+li .unstyled {
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
 /* -------------------------------- 
 
 Images block

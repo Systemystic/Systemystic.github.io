@@ -1,0 +1,60 @@
+body{
+	max-width: 90%;
+	max-width: 1000px;
+	min-width: 600px;
+	margin-left: auto;
+   	margin-right: auto;
+	background-image: url(../img/paptext.jpg);
+	padding-bottom: 200px; /** pelase remove when a actual bottom is in place*/
+}
+p{
+	padding-bottom: 15px;
+}
+.indent {
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 120px;
+	padding-bottom: 40px;
+}
+h1 {
+	padding-bottom: 15px;
+	font-size: 120%;
+}
+.heading{
+	text-decoration: underline overline;
+	font-weight: bold;
+	font-size: 200%;
+}
+.headermenu {
+	width: auto;
+	height: 80px;
+	margin-left: auto;
+   	margin-right: auto;
+	vertical-align: middle;	
+}
+	
+.headermenu ul li { 
+	margin-top: 30px;
+	list-style-type: none;
+	float: left;
+	display: block;
+	width: 25%;
+	text-align: center; 
+}
+	
+.headermenu ul li a {  
+	padding-left:5px;
+	font-weight: bold; 
+	text-decoration: none;
+
+}
+
+.headermenu ul li a:hover{  
+	text-decoration: underline;
+}
+
+.contdent {
+	padding-left: 60px;
+	padding-top: 60px;
+	padding-right: 60px;
+}
