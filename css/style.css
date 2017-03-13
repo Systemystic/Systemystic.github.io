@@ -250,6 +250,9 @@ Content block
   -o-transform: scale(1.2);
   transform: scale(1.2);
 }
+.boldemoverride{
+  color: #000000;
+}
 @media only screen and (min-width: 768px) {
   .cd-content-block {
     /* reset style */
