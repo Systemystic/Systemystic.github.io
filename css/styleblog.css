@@ -25,6 +25,13 @@ h1 {
 	font-weight: bold;
 	font-size: 200%;
 }
+
+ul {
+	list-style-type: dash;
+	padding-bottom: 15px;
+	padding-left: 20px;
+}
+
 .headermenu {
 	width: auto;
 	height: 80px;
